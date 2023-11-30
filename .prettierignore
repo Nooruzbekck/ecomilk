@@ -1,0 +1,36 @@
+# Игнорируем директорию сборки
+build/
+dist/
+
+# Игнорируем зависимости
+node_modules/
+
+# Игнорируем локальные настройки редактора
+.idea/
+.vscode/
+
+# Игнорируем файлы среды выполнения
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Игнорируем файлы логов
+*.log
+
+# Игнорируем артефакты CI/CD
+*.ci.yml
+*.circleci
+*.gitlab-ci.yml
+
+# Игнорируем специфичные файлы и папки
+*.lock
+*.json
+/public/
+
+# Игнорировать markdown файлы с документацией
+*.md
+
+# Игнорировать сгенерированные файлы
+*.generated.*
+
